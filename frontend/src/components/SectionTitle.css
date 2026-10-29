@@ -1,0 +1,78 @@
+
+.section-title {
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.section-title-center {
+  text-align: center;
+}
+
+.section-title-left {
+  text-align: left;
+}
+
+.section-eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+  color: #a78bfa;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.section-title h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.title-highlight {
+  color: #a78bfa;
+}
+
+.section-description {
+  max-width: 650px;
+  margin: 18px auto 0;
+  color: #a5a5b5;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.section-title-left .section-description {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-title-line {
+  width: 65px;
+  height: 4px;
+  margin: 22px auto 0;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #8b5cf6, #60a5fa);
+}
+
+.section-title-left .section-title-line {
+  margin-left: 0;
+}
+
+@media (max-width: 600px) {
+  .section-title {
+    margin-bottom: 32px;
+  }
+
+  .section-title h2 {
+    font-size: clamp(1.8rem, 7vw, 2.4rem);
+  }
+
+  .section-description {
+    font-size: 0.93rem;
+  }
+
+  .section-eyebrow {
+    letter-spacing: 2px;
+  }
+}

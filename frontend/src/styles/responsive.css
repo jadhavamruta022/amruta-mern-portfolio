@@ -1,0 +1,134 @@
+
+/* Tablets and Small Laptops */
+@media (max-width: 1024px) {
+  :root {
+    --container-width: 960px;
+    --section-padding: 75px;
+  }
+
+  .container {
+    width: 92%;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  :root {
+    --navbar-height: 70px;
+    --section-padding: 60px;
+  }
+
+  .container {
+    width: 92%;
+  }
+
+  .projects-grid,
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-container {
+    grid-template-columns: 1fr;
+  }
+
+  .home-content {
+    text-align: center;
+  }
+
+  .home-tech-stack,
+  .home-buttons {
+    justify-content: center;
+  }
+
+  .home-visual {
+    margin-top: 20px;
+  }
+
+  .about-content,
+  .education-grid,
+  .experience-grid,
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar-container {
+    gap: 16px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  :root {
+    --navbar-height: 64px;
+    --section-padding: 45px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 92%;
+  }
+
+  .projects-page,
+  .skills-page,
+  .about-page,
+  .education-page,
+  .experience-page,
+  .certifications-page,
+  .contact-page {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  .home-buttons {
+    gap: 10px;
+  }
+
+  .home-primary-btn,
+  .home-secondary-btn,
+  .btn-primary,
+  .btn-secondary {
+    padding: 11px 14px;
+    font-size: 13px;
+  }
+
+  .project-card,
+  .skill-group-card {
+    padding: 18px;
+  }
+
+  .not-found-buttons {
+    flex-direction: column;
+  }
+
+  .not-found-home-btn,
+  .not-found-back-btn {
+    width: 100%;
+  }
+}
+
+/* Very Small Phones */
+@media (max-width: 360px) {
+  .container {
+    width: 94%;
+  }
+
+  .home-page h1 {
+    font-size: 34px;
+  }
+
+  .home-tech-stack {
+    gap: 7px;
+  }
+
+  .home-tech-stack span {
+    padding: 7px 9px;
+    font-size: 11px;
+  }
+
+  .project-card h3 {
+    font-size: 18px;
+  }
+}
